@@ -1,0 +1,13 @@
+void GPIO_PORTA_PORTD_Init(void);
+void LCD_enable_pulse(void);
+void LCD_write_higher_nibble(char );
+void LCD_write_lower_nibble(char );
+void LCD_cmd_8bit(char );
+void LCD_cmd_4bit(char );
+void LCD_Init(void);
+void LCD_data_char(char );
+void LCD_data_string(char *);
+void LCD_int(int );
+int LCD_itoBCD(int );
+void LCD_itoa(unsigned int );
+unsigned int LCD_BCDtoi(unsigned int );
